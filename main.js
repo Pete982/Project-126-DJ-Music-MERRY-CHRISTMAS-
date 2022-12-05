@@ -1,0 +1,1 @@
+canvas = createCanvas(VIDEO);
