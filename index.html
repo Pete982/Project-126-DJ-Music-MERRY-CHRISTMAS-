@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 <html>
-  <head id="SaintNickWoo">
+  <head>
     
     <title>AI DJ WEB APP</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,43 +18,46 @@
    
   </head>
 
-<body background = "SnowManDrawing1.jpeg" id="SaintNick"> 
+<body background="background.jpg"> 
 <center>
   	<h3 class="btn btn-warning heading">AI DJ WEB APP
 
 	    <br>
 
-	    <span id="SANTAS_COMING">
-
-            <h3 id="MERRYCHRISTMAS"> MERRY CHRISTMAS!!! </h3>
-       
-        NOTE - Move your left wrist up and down to increase and decrease the volume!
-
-              Then do the same with your other wrist! Its very cool!
+	    <span class="note">
         
-            </span>
+        NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed. </span>
 
 
 
   	</h3>
 
-    <div class="div_songname">
+    <div class="div_speed">
+
+      <img src="disk.gif" class="div_speed_image">
 
       <br>
 
-      <h3 class="btn btn-danger" id="SaintNicksMusic"> The Song Name </h3>
+      <h3 class="btn btn-danger" id="speed"> Speed</h3>
 
     </div>
 
-    <canvas id="canvas"> </canvas>
 
-    <div class="div_playMusic"> 
+    <div class="div_volume"> 
+
+    <img src="disk.gif" class="div_volume_image">
 
       <br>
 
-      <h3 class="btn btn-success" id="PlayingWithSantasPresents"> Play </h3>
+      <h3 class="btn btn-danger" id="volume"> Volume </h3>
       
     </div>
+
+
+	<br><br>
+
+  <button onclick="play()" class="btn btn-success play_button"> Play </button>
 
   </center>
 
